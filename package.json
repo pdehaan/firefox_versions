@@ -1,0 +1,35 @@
+{
+  "name": "firefox_versions",
+  "description": "Fetch latest Firefox versions",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bin": "get-firefox-versions.js",
+  "bugs": {
+    "url": "https://github.com/pdehaan/firefox_versions/issues"
+  },
+  "dependencies": {
+    "got": "9.2.2"
+  },
+  "devDependencies": {
+    "eslint": "5.6.1"
+  },
+  "files": [
+    "get-firefox-versions.js",
+    "index.js"
+  ],
+  "homepage": "https://github.com/pdehaan/firefox_versions#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/firefox_versions.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "start": "node index",
+    "test": "node get-firefox-versions"
+  }
+}
